@@ -47,7 +47,7 @@ body{
     border-radius: 0 0 1.1rem 1.1rem;
     margin-bottom: 30px;
     width: 330px;
-    height: 539px;
+    height: 525px;
 }
 .panel_card{
     background-image:linear-gradient(#aa5cdb9c , #aa5cdb9d), url(../images/image-header-mobile.jpg) ;
@@ -60,11 +60,9 @@ body{
 }
 .text_p{
     margin-top: 36px;
-    margin-bottom: 27px;
+    margin-bottom: 18px;
 }
-.content_text{
-        margin-bottom: 31px;
-}
+
 .numbers{
     margin-bottom: 26px;
 }
@@ -79,10 +77,33 @@ body{
 .content_text{
     color: var(--Slightlywhiteheadings);
     font-family: ' Inter', sans-serif;
+    margin-bottom: 25px;
     font-weight: 400;
     line-height: 26px;
     font-size: 15px;
 }
+.numbers{
+    font-weight: 500;
+    font-size:23px;
+}
+.second_text{
+    color: var(--Slightlywhiteheadings);
+    font-size: 15px;
+}
+
+
+// @media screen and (min-width:700px){
+//   .card{
+//       display: flex;
+//       flex-direction: row;
+      
+//   }
+//   .panel_card{
+//       display: flex;
+//       flex-direction: row;
+//       align-items: right;
+//   }
+// }
 
 
 
